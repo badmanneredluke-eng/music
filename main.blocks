@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="eDt*MhN067O.oG+}CD{1">mySprite</variable><variable type="KIND_SpriteKind" id="V1+kFdFjk/99NbsC`UXq">Player</variable><variable type="KIND_SpriteKind" id="GY3oZz?Rs{~C4XqxdJG[">Projectile</variable><variable type="KIND_SpriteKind" id="?W[mrX?JZ.[MPIBa!aiH">Food</variable><variable type="KIND_SpriteKind" id="/F1/$klc*1,_c4DNIiiy">Enemy</variable></variables><block type="pxt-on-start" id="|kJJC2s2X31_}-cXCBHI" x="0" y="0"><statement name="HANDLER"><block type="music_playable_play" id="D(,EUJwO/p4XJXw+wVKb"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_song_field_editor" id="|aj-e9y/@s8[:%:.BxL-"><field name="song">hex`0078000408080202001c000c960064006d019001000478002c010000640032000000000a0600054e007c008000011e84008800011e8c009000011e940098000120a400a800011eac00b000011eb400b8000119bc00c000011ec400c800011bcc00d0000119d400d800011de400e800011eec00f000011e05001c000f0a006400f4010a00000400000000000000000000000000000000024e0004000800011e0c001000011e14001800011e1c002000012224002800011e2c003000011e34003800011944004800011b4c005000011954005800011b5c006000011d68006c00011e70007400011e`</field><data>{"commentRefs":[],"fieldData":{"song":null}}</data></shadow></value><next><block type="variables_set" id="rv.{q]`Qx:2Oz^7G$Q|8"><field name="VAR" id="eDt*MhN067O.oG+}CD{1">mySprite</field><value name="VALUE"><shadow type="math_number" id=")hO}{2@4qc2slM-:q}N@"><field name="NUM">0</field></shadow><block type="spritescreate" id="Zhf8lo}^2:sQA9q4J*@e"><value name="img"><shadow type="screen_image_picker" id="rI=.6~b~*LIT,l}yp0X="><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f f f . . . . 
+. . . . . . f . . . . f . . . . 
+. . . . f f f f f f f f f f . . 
+. . . . f . . . . . . . . f . . 
+. . . . f . f . . . . f . f . . 
+. . . . f . . . . . . . . f . . 
+. . . . f f f f f f f f f f . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="}CAY{`M*/ijnu;ebyP-x"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundcolor" id="{77_fA.Lo=zxGY)(vG*I"><value name="color"><shadow type="colorindexpicker" id="44QbRWpoCG4=/:g(trpM"><field name="index">7</field></shadow></value></block></next></block></next></block></statement></block></xml>
